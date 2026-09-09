@@ -5,6 +5,8 @@ description: 'Hardens serverless compute platforms (AWS Lambda, Azure Functions,
   secrets management integration, input validation, function URL authentication, and
   runtime monitoring. Use when deploying serverless functions with sensitive access,
   auditing for overly permissive roles, or adding functions to a DevSecOps pipeline.
+  Do not use for a one-off security review of existing serverless functions - use
+  performing-serverless-function-security-review.
 
   '
 domain: cybersecurity

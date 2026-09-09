@@ -5,6 +5,8 @@ description: 'Performs coverage-guided fuzzing of compiled binaries with AFL++, 
   running parallel campaigns with afl-fuzz, and triaging crashes with CASR or GDB
   scripts. Use for binary fuzzing, crash and memory-corruption discovery, coverage-guided
   testing, or running AFL++ fuzzing campaigns.
+  Do not use for embedding AFL++ fuzzing into a CI/CD pipeline - use
+  implementing-fuzz-testing-in-cicd-with-aflplusplus.
 
   '
 domain: cybersecurity
