@@ -20,6 +20,48 @@
         "hardening-windows-endpoint-with-cis-benchmark"
       ],
       "reason": "Same CIS Benchmark methodology, different operating systems. The controls, tooling and audit commands do not overlap, so both must exist; each description must name the OS explicitly and point at the other."
+    },
+    {
+      "pair": [
+        "configuring-suricata-for-network-monitoring",
+        "implementing-network-intrusion-prevention-with-suricata"
+      ],
+      "reason": "Passive IDS monitoring/inspection and SIEM log integration vs inline IPS (NFQueue) that actively blocks traffic. Each must name the mode and point at the other."
+    },
+    {
+      "pair": [
+        "performing-serverless-function-security-review",
+        "securing-serverless-functions"
+      ],
+      "reason": "Security review of existing functions to find risks (permissive roles, injection, missing protections) vs hardening/deploying functions (least privilege, dependency scanning, secrets, runtime monitoring). Assess vs remediate."
+    },
+    {
+      "pair": [
+        "analyzing-supply-chain-malware-artifacts",
+        "hunting-for-supply-chain-compromise"
+      ],
+      "reason": "Static analysis of a captured trojanized artifact (malware-analysis) vs proactive SIEM/EDR threat hunt for T1195 compromise (threat-hunting). Offense artifact vs defensive hunt."
+    },
+    {
+      "pair": [
+        "analyzing-security-logs-with-splunk",
+        "building-detection-rule-with-splunk-spl"
+      ],
+      "reason": "Investigating a specific incident through log correlation in Splunk ES vs authoring reusable SPL detection/correlation rules for a SOC. Analyst vs detection engineer."
+    },
+    {
+      "pair": [
+        "implementing-fuzz-testing-in-cicd-with-aflplusplus",
+        "performing-fuzzing-with-aflplusplus"
+      ],
+      "reason": "Embedding AFL++ fuzzing into a CI/CD pipeline (harness/instrumentation/persistent mode) vs standalone coverage-guided fuzzing of a binary (afl-cmin/cmin, crash triage). CI integration vs ad-hoc campaign."
+    },
+    {
+      "pair": [
+        "analyzing-cobalt-strike-beacon-configuration",
+        "analyzing-cobaltstrike-malleable-c2-profiles"
+      ],
+      "reason": "Extract a beacon configuration from a captured PE/memory dump vs parse a Malleable C2 profile (AST) to produce network detection signatures. Artifact config vs profile grammar."
     }
   ]
 }

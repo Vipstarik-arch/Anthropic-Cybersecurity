@@ -6,6 +6,7 @@ description: 'Leverages Splunk Enterprise Security and SPL (Search Processing La
   authentication data analysis. Activates for requests involving Splunk investigation,
   SPL queries, SIEM log analysis, security event correlation, or log-based incident
   investigation.
+  Do not use for writing new SPL detection rules - use building-detection-rule-with-splunk-spl.
 
   '
 domain: cybersecurity

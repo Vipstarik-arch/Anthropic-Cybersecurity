@@ -1,8 +1,10 @@
 ---
 name: performing-cryptographic-audit-of-application
-description: A cryptographic audit systematically reviews an application's use of
-  cryptographic primitives, protocols, and key management to identify vulnerabilities
-  such as weak algorithms, insecure modes, hardco
+description: A cryptographic audit systematically reviews an application's use of cryptographic primitives,
+  protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes,
+  hardcoded keys, insufficient entropy, and protocol misconfigurations. This skill covers building an
+  automated crypto audit tool that scans Python and configuration files for common cryptographic
+  weaknesses.
 domain: cybersecurity
 subdomain: cryptography
 tags:

@@ -1,8 +1,10 @@
 ---
 name: analyzing-malicious-url-with-urlscan
-description: URLScan.io is a free service for scanning and analyzing suspicious URLs.
-  It captures screenshots, DOM content, HTTP transactions, JavaScript behavior, and
-  network connections of web pages in an isolat
+description: URLScan.io is a free service for scanning and analyzing suspicious URLs. It captures screenshots,
+  DOM content, HTTP transactions, JavaScript behavior, and network connections of web pages in an
+  isolated environment. This skill covers using URLScan's web interface and API to investigate
+  phishing URLs, credential harvesting pages, and malicious redirects without exposing the analyst's
+  system to risk.
 domain: cybersecurity
 subdomain: phishing-defense
 tags:
